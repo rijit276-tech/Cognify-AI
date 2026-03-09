@@ -1,0 +1,15 @@
+const button = document.getElementById("askBtn");
+
+button.addEventListener("click", function(){
+
+let question = document.getElementById("question").value.trim();
+
+if(question === ""){
+document.getElementById("answer").innerText = "Please enter a question.";
+return;
+}
+
+document.getElementById("answer").innerText =
+"AI response simulation: This feature will connect to a real AI tutor in future versions.";
+
+});
