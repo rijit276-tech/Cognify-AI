@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cognify AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<h2>Cognify AI</h2>
+</nav>
+
+<section class="hero">
+<h1>Your Personal AI Tutor</h1>
+<p>Ask questions and learn faster with Cognify AI.</p>
+
+<div class="chat">
+<input id="question" type="text" placeholder="Ask your question...">
+<button id="askBtn">Ask AI</button>
+</div>
+</section>
+
+<section class="response">
+<h3>AI Response</h3>
+<p id="answer">Your answer will appear here.</p>
+</section>
+
+<footer>
+<p>© 2026 Cognify AI</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
